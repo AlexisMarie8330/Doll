@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'welcome/lingerie'
+
+  get 'welcome/cars'
+
+  get 'welcome/pop'
+
+  get 'welcome/Pop-Culture'
+
+  get 'welcome/instagram'
+
+  get 'welcome/index'
+
+  get 'welcome/post'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
