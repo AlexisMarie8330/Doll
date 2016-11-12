@@ -1,6 +1,7 @@
 @import "bootstrap";
 
 
+
 .pin {
   width: 20em;
   height: 25em;
@@ -45,3 +46,16 @@ display: block;
 width: 247px;
 height: 58px;
  }
+
+
+
+body { 
+    padding-top: 65px; 
+}
+
+
+
+
+
+
+

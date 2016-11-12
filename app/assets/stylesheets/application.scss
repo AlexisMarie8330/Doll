@@ -18,6 +18,18 @@ width: 65%;
 }
 
 
+c {
+    
+    
+
+    font-family: "Soleil W01",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+width: 65%;
+  margin: auto;
+  
+}
+
 
  img {
 
@@ -28,5 +40,35 @@ width: 65%;
  max-width: 100%;
 
  }
+
+
+
+body { 
+    padding-top: 65px; 
+}
+
+
+
+
+.btn.btn-success {
+    color: #000000;
+    background-color: #B2B2B2;
+    border-color:  #B2B2B2 #B2B2B2 #B2B2B2;
+    width:200px;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    font-family: "Soleil W01",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.btn.btn-success:hover {
+    color: #ffffff;
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    border-color: #000000 #000000 #000000;
+}
+
+
+
+
 
 

@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'welcome/nadine'
+
+  get 'welcome/blythedresses'
+
+  get 'welcome/ads'
+
+  get 'welcome/fashion'
+
+  get 'welcome/index'
+
   get 'welcome/lingerie'
 
   get 'welcome/cars'
