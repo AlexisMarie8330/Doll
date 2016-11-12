@@ -1,4 +1,22 @@
 Rails.application.routes.draw do
+  get 'barbie/giftguide'
+
+  get 'barbie/cars'
+
+  get 'barbie/dresses'
+
+  get 'barbie/lingerie'
+
+  get 'etsy/wishlist2'
+
+  get 'etsy/wishlist'
+
+  get 'miniatures/instagram'
+
+  get 'interview/nadine'
+
+  get 'interview/Nadine'
+
   get 'welcome/nadine'
 
   get 'welcome/blythedresses'
