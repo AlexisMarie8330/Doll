@@ -24,6 +24,10 @@ gem 'sprockets-rails'
 
 gem 'bootstrap', '~> 4.0.0.alpha5'
 
+gem "passenger"
+gem "sqlite3"
+
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
