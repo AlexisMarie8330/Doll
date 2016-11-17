@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class BarbieControllerTest < ActionController::TestCase
-  test "should get lingerie" do
-    get :lingerie
+  test "should get dollhouses" do
+    get :dollhouses
     assert_response :success
   end
 

@@ -1,4 +1,4 @@
 class BarbieController < ApplicationController
-  def giftguide
+  def filipina
   end
 end

@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'barbie/filipina'
+
+  get 'interview/pamela'
+
+  get 'interview/Pamela'
+
+  get 'barbie/dollhouses'
+
+  get 'barbie/playsets'
+
   get 'barbie/giftguide'
 
   get 'barbie/cars'

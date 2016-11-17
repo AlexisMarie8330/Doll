@@ -1,4 +1,4 @@
 class InterviewController < ApplicationController
-  def nadine
+  def pamela
   end
 end
