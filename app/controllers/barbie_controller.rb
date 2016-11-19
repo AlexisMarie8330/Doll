@@ -1,4 +1,4 @@
 class BarbieController < ApplicationController
-  def party
+  def thanksgiving
   end
 end

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'barbie/thanksgiving'
+
   get 'barbie/party'
 
   get 'barbie/filipina'
