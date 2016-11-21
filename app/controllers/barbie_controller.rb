@@ -1,4 +1,4 @@
 class BarbieController < ApplicationController
-  def hotel
+  def family
   end
 end
