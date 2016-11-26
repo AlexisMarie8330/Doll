@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dollier</title>
+	<% if content_for?(:title) %>
+  <%= content_for(:title) %>
+<% else %>
+  <title>Default title</title>
+<% end %>
 	<meta content="width=device-width, initial-scale=1" name="viewport"><%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %><%= javascript_include_tag "application", "data-turbolinks-track" => true %><%= csrf_meta_tags %>
 </head><%= render 'layouts/header' %><%= yield %>
 <body>
